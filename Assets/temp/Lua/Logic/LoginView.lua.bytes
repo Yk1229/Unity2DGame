@@ -1,0 +1,10 @@
+LoginView = LoginView or {}
+local this = LoginView
+
+function LoginView.Awake()
+	panelMgr:CreatePanel('LoginView', this.OnCreate)
+end
+
+function LoginView.OnCreate(obj)
+	-- body
+end

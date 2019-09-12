@@ -69,6 +69,8 @@ public class Packager {
         }
         if (AppConst.ExampleMode) {
             HandleExampleBundle();
+        } else {
+            HandleGameBundle();
         }
         string resPath = "Assets/" + AppConst.AssetDir;
         BuildPipeline.BuildAssetBundles(resPath, maps.ToArray(), BuildAssetBundleOptions.None, target);
@@ -162,6 +164,14 @@ public class Packager {
 
         AddBuildMap("prompt_asset" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Examples/Textures/Prompt");
         AddBuildMap("shared_asset" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Examples/Textures/Shared");
+    }
+
+    static void HandleGameBundle() {
+        string resPath = AppDataPath + "/" + AppConst.AssetDir + "/";
+        if (!Directory.Exists(resPath)) Directory.CreateDirectory(resPath);
+
+        AddBuildMap("loginView" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/Package/Prefab/LoginView");
+        AddBuildMap("login_bg" + AppConst.ExtName, "*.jpg", "Assets/LuaFramework/Package/Texture");
     }
 
     /// <summary>

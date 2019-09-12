@@ -1,0 +1,6 @@
+LoginManager = LoginManager or {}
+local this = LoginManager
+
+function LoginManager.init()
+	-- body
+end
