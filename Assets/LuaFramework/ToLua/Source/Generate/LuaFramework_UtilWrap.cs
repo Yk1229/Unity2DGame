@@ -15,6 +15,7 @@ public class LuaFramework_UtilWrap
 		L.RegFunction("GetTime", GetTime);
 		L.RegFunction("Child", Child);
 		L.RegFunction("Peer", Peer);
+		L.RegFunction("SetImage", SetImage);
 		L.RegFunction("md5", md5);
 		L.RegFunction("md5file", md5file);
 		L.RegFunction("ClearChild", ClearChild);
@@ -223,6 +224,24 @@ public class LuaFramework_UtilWrap
 			{
 				return LuaDLL.luaL_throw(L, "invalid arguments to method: LuaFramework.Util.Peer");
 			}
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int SetImage(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 3);
+			UnityEngine.UI.Image arg0 = (UnityEngine.UI.Image)ToLua.CheckObject<UnityEngine.UI.Image>(L, 1);
+			string arg1 = ToLua.CheckString(L, 2);
+			string arg2 = ToLua.CheckString(L, 3);
+			LuaFramework.Util.SetImage(arg0, arg1, arg2);
+			return 0;
 		}
 		catch (Exception e)
 		{

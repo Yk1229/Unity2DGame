@@ -130,6 +130,15 @@ namespace LuaFramework {
         }
 
         /// <summary>
+        /// 修改图片
+        /// </summary>
+        public static void SetImage(UnityEngine.UI.Image img, string abName, string imageName) {
+            ResourceManager ResManager = AppFacade.Instance.GetManager<ResourceManager>(ManagerName.Resource);
+            Sprite spt = ResManager.LoadAsset<Sprite>(abName, imageName);
+            img.sprite = spt;
+        }
+
+        /// <summary>
         /// 计算字符串的MD5值
         /// </summary>
         public static string md5(string source) {
