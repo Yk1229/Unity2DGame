@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map" tilewidth="32" tileheight="32">
+  <image source="map4.png" width="512" height="512"/>
+ </tileset>
+ <layer name="块层 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmEtOwzAQQC0WPQE0F2g4AXTPETgS9ATAJltgkd4ALgDlWEykWLIGT+yxJ2aSevFUS/HvdWyPk84Y083IDrieeYwSVA9dVA9ZLhKhPHL7y/GYen4EGlQOeTRj3Q6VU+cg4RFq4/MoMYdz9fgCvlE55OHWc9vXePD72AjGA7enxpD0sOfKxvjPKLecel5RY0h59GO/l0ALXDFoE9tsxzF74XgMfd4At0ysB7fd3onTHOuKWkuS6wr3K+WxhntJLlruiefmMZxl3PNqq2Devv+9ZaIxTv/twclPMfkO8wF8AnfEc6nxufkplO8wJ+AHuCeeS42/lnXl5poH4JHJQaHHE/DM5GVlHtQdcmof7BV6TO2bEnki12PAt19SPOy7If7lerwCb4jc+FAe+L4uGQ8f1i3HIybf5d61Yu//sWuO8gjl0Nw9FOvhW3M+3j0eeI6N83sk6szlkfruFjNHt477vWRJHo35u4fs95IleVDfYYYcyTl3O8/Ykvg87Px6FBfrJXEOl/BYItVDF9VDF9VDF9VDF9VDF6U8fgFP8Kdg
+  </data>
+ </layer>
+ <layer name="块层 2" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEOgjAQheHuvP9h9B7GqGujBrbgBZydDYFSYByG8n/JBDft5CXFlAkBwN6dpdqJdTHcL9djxpqn4X65yGGzX66471XqJnVf0HcsR18PzRwvqbfUQaqSqhNr5uYY6mFxro5Sp87vsRx9a1J4P5b11UaOn1LOVROm3yM+hvsBAAA/UvMHjTmDldS9S+N+ZWVrOYbOT/yd2H16zLHWvd2DLeb419xH21pzH22lvB97zOH9fzdnhhjzmIN5CQAAKN0XE8qfIA==
+  </data>
+ </layer>
+ <layer name="块层 3" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2FkKwjAURuE+6MacFuC0AK0uwGljugNdmP9D+lJyo0K4JuV8cGgIhAQKhaZpAGBYJmqqZmquFpXusVQrtVYbtQ3zIzWOjFOsNdYeOe3UXrXqoI5h/qlekXGKtcbaI6eTOquLuqpbmL+rR2ScYq2x9vCQ830AAAAAAH7T/av3n7Xp/g37z9p43Pt48Lj38eBx7+Phn/c++Kz07+635yv9u1v6+QAAADAcb3qOL1k=
+  </data>
+ </layer>
+ <layer name="阻挡层" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmFEOgCAMQ/FU3v9mxg8/NAwYlE1GX0JiVLpVxjSmRAjZnaNzWOlpfCDnoPVmavzZh7TWuePWuirN/54fJaqPszGPkl5tfi7GKDUNpI/eHFqItM8ROt7xPT08sK7eGhG+SwghpEaUfhPFhwdR3lGePpAxvH30XJPu33k9NDEtnpWVDy2INbesM0kLVbtSjJ191PrSPWb890HjtT/QaHJC93YkmtxW8dGa3wo+ZvdAQgghhBBrLoTtAhY=
+  </data>
+ </layer>
+</map>

@@ -1,9 +1,9 @@
-loginview.unity3d|3392681581cab913e40b6a061b58196a
-loginview.unity3d.manifest|3c6f1974a3656a9277d61eb76fec442c
-login_bg.unity3d|f7f9facd445887e2157b7ef263ca6e99
-login_bg.unity3d.manifest|0ce1cd2ee14a691bd25c568e764aa855
-StreamingAssets|32cac4515b47821efcf828295f5f8fd5
-StreamingAssets.manifest|a32ad5a6c8a7e5f85294d5902e280091
+loginview.unity3d|71f31517aaa3e7d65c09a789993246b7
+loginview.unity3d.manifest|915c886e428e4f4b52a4817ce5f9f418
+login_atlas.unity3d|859d1395adc12f23774b104e26e42e2c
+login_atlas.unity3d.manifest|608aa5fa5a1cc7be7a5aa08ac80030db
+StreamingAssets|8d620ac45ada22afa308d980072198bc
+StreamingAssets.manifest|bcce89172b106b0f81eeac4b64f7b35b
 lua/Build.bat|796c40aa00eab69c48224476a2626994
 lua/event.lua|91c44063c7ad28c6007f454bf25e0cd2
 lua/eventlib.lua|be1d722b289665f05d7d3e06f4bec3a2
@@ -61,7 +61,7 @@ lua/3rd/sproto/test.lua|ba99f6f05277b0b29d29a2e18c83da72
 lua/3rd/sproto/testall.lua|e4a626354f9622bf07e4e9d1559048a9
 lua/3rd/sproto/testrpc.lua|b338e22d4f43bebc4095790e116ff947
 lua/cjson/util.lua|fdc0f01f3db1e6fb373005eba3928bac
-lua/Common/defineRequire.lua|77e3904b30d3df546cc505cf514fe6c8
+lua/Common/defineRequire.lua|9c6232d3c36da33c4dace1b13b3fc06d
 lua/Common/functions.lua|def59aeb988eb55c9d92a6c9d737d99f
 lua/jit/bc.lua|e3138b8406ce11168b39d072ad400c8f
 lua/jit/bcsave.lua|b5ced85a1cfaf6a0178c3a380b2e587b
@@ -80,8 +80,8 @@ lua/jit/p.lua|65721cd3491e42f895d10a5f9859aa34
 lua/jit/v.lua|c5a4905e82b08bfb7836da86203fc139
 lua/jit/vmdef.lua|54fab5a0a4468adace4317becf7a1216
 lua/jit/zone.lua|a0028573d5d34849a397030c8f50147c
-lua/Logic/LoginViewPanel.lua|3ca6d269ec9d201c437d856386ceb740
-lua/Logic/Login/LoginManager.lua|f615b256a386666b915ae0076d2099e2
+lua/Logic/Login/LoginManager.lua|af938a5d37abc2857551dfe53578559c
+lua/Logic/Login/LoginViewPanel.lua|5ae74b6d51bb995f1e74c4428dc1db26
 lua/lpeg/re.lua|aedddbe68e6b12b4a61d77ccada15594
 lua/misc/functions.lua|b5a98bcf078842e475fa53db86762524
 lua/misc/misc.lua|5348fdaa476da9eb3b308e8bc26efcbc

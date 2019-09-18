@@ -1,16 +1,20 @@
 ManifestFileVersion: 0
-CRC: 1568773077
+CRC: 2254121864
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4fb46970db1e286b2c73dcf7009439dd
+    Hash: 0d5c7032454b5c3a4571acfff947f102
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 5a32b215c87c963714ffb259bc103895
+    Hash: 68dd8a3c45cdb43ef055887ce75b16bb
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 - Class: 114
   Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 - Class: 115
@@ -24,4 +28,4 @@ ClassTypes:
 Assets:
 - Assets/LuaFramework/Package/Prefab/LoginView/LoginViewPanel.prefab
 Dependencies:
-- E:/work/MyUnityTest/Assets/StreamingAssets/login_bg.unity3d
+- E:/work/MyUnityTest/Assets/StreamingAssets/login_atlas.unity3d

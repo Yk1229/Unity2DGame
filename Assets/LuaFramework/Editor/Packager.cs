@@ -170,8 +170,8 @@ public class Packager {
         string resPath = AppDataPath + "/" + AppConst.AssetDir + "/";
         if (!Directory.Exists(resPath)) Directory.CreateDirectory(resPath);
 
+        AddBuildMap("login_atlas" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Package/Atlas");
         AddBuildMap("loginView" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/Package/Prefab/LoginView");
-        AddBuildMap("login_bg" + AppConst.ExtName, "*.jpg", "Assets/LuaFramework/Package/Texture");
     }
 
     /// <summary>

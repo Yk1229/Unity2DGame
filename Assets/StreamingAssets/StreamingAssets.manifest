@@ -1,11 +1,11 @@
 ManifestFileVersion: 0
-CRC: 4063537437
+CRC: 1043429578
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
+      Name: login_atlas.unity3d
+      Dependencies: {}
+    Info_1:
       Name: loginview.unity3d
       Dependencies:
-        Dependency_0: login_bg.unity3d
-    Info_1:
-      Name: login_bg.unity3d
-      Dependencies: {}
+        Dependency_0: login_atlas.unity3d
