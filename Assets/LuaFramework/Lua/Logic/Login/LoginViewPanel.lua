@@ -18,4 +18,5 @@ end
 
 function LoginViewPanel:onStartClick(go)
 	print("=========================")
+	SceneManager.LoadScene("main")
 end

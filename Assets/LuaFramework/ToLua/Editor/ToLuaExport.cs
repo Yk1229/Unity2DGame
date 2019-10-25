@@ -1083,6 +1083,10 @@ public static class ToLuaExport
             {
                 usb.AppendLineEx("using Object = UnityEngine.Object;");
             }
+            if (libClassName == "Image")
+            {
+                usb.AppendLineEx("using DG.Tweening;");
+            }
 
             usb.AppendLineEx();
 
